@@ -1,6 +1,7 @@
 package com.example.firstapplication
 
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+        Log.i("Simulacion Examen 2", "Simulacion de la implementacion de la Historia de Usuario: Borrar Vuelo - Rol: Scrum Master")
         val drawerLayout: DrawerLayout = binding.drawerLayout
         val navView: NavigationView = binding.navView
         val navController = findNavController(R.id.nav_host_fragment_content_main)
